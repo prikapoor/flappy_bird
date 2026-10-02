@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Sky Flapper - a Flappy Bird-style game in vanilla JavaScript. No dependencies.">
+<title>Sky Flapper</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="game" aria-label="Sky Flapper game"></canvas>
+
+<!-- Plain scripts (not ES modules) so the game also works when opened straight from disk. Order matters. -->
+<script src="js/config.js"></script>
+<script src="js/state.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/features.js"></script>
+<script src="js/input.js"></script>
+<script src="js/update.js"></script>
+<script src="js/collision.js"></script>
+<script src="js/render.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

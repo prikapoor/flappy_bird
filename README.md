@@ -1,2 +1,1 @@
-# flappy_bird
-Single-file Flappy Bird-style browser game with no dependencies: canvas-drawn graphics, Web Audio sounds, levels with changing themes, and selectable difficulty.
+Dependency-free Flappy Bird-style browser game in vanilla JS: levels with changing themes, difficulty presets, power-ups, bird skins, achievements, and Web Audio sound.
